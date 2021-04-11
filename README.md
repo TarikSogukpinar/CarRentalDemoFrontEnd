@@ -18,13 +18,13 @@
 
 <p align="center">
     <a href="https://github.com/github_username/repo_name">
-        <img src="https://i.hizliresim.com/wTMiwv.png" alt="" width="500" height="500">
+        <img src="https://i.hizliresim.com/wTMiwv.png" alt="" width="1000" height="700">
     </a>
   </p>
   
   <p align="center">
     <a href="https://github.com/github_username/repo_name">
-        <img src="https://i.hizliresim.com/p2z5ez.png" alt="" width="500" height="500">
+        <img src="https://i.hizliresim.com/p2z5ez.png" alt="" width="1000" height="700">
     </a>
   </p>
 
