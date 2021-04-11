@@ -1,0 +1,23 @@
+.navbar-nav {
+    position: relative;
+    top: 5px;
+    left: 10px;
+    right: -50px;
+    bottom: -40px;
+}
+
+.navbar-brand {
+    position: relative;
+    top: 5px;
+    left: 10px;
+    right: -50px;
+    bottom: -40px;
+}
+
+.navbar-cart {
+    position: relative;
+    top: -10px;
+    left: 5px;
+    right: -20px;
+    bottom: -10px;
+}

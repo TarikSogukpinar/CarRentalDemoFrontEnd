@@ -1,0 +1,90 @@
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#carupdate">
+    Araç Güncelle
+</button>
+
+<div class="modal fade" id="carupdate" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content" style="background-color: #ffffff;">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Lütfen Alanları Doğru Doldurduğunuzdan Emin Olun</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form [formGroup]="carUpdateForm">
+                    <label for="carId">Araç Sistem Idsi</label>
+                    <div class="p-field p-col-12 p-md-4">
+                        <span class="p-float-label">
+                            <input type="number" formControlName="carId" id="carId" pInputText>
+
+                        </span>
+                    </div>
+                    <label for="carName">Araç İsmi</label>
+                    <div class="p-field p-col-12 p-md-4">
+                        <span class="p-float-label">
+                            <input type="text" formControlName="carName" id="carName" pInputText>
+
+
+
+                        </span>
+
+                    </div>
+
+
+                    <label for="fuelType">Benzin Türü</label>
+                    <div class="p-field p-col-12 p-md-4">
+                        <span class="p-float-label">
+                            <input type="text" formControlName="fuelType" id="fuelType" pInputText>
+
+
+
+                        </span>
+
+                    </div>
+
+                    <label for="productionYear">Üretim Yılı</label>
+                    <div class="p-field p-col-12 p-md-4">
+                        <span class="p-float-label">
+                            <input type="number" formControlName="productionYear" id="productionYear" pInputText>
+
+
+
+                        </span>
+
+                    </div>
+
+                    <label for="description">Açıklama</label>
+                    <div class="p-field p-col-12 p-md-4">
+                        <span class="p-float-label">
+                            <input type="text" formControlName="description" id="description" pInputText>
+
+
+
+                        </span>
+
+                    </div>
+
+                    <label for="dailyPrice">Günlük Fiyat</label>
+                    <div class="p-field p-col-12 p-md-4">
+                        <span class="p-float-label">
+                            <input type="number" formControlName="dailyPrice" id="dailyPrice" pInputText>
+
+
+
+                        </span>
+
+                    </div>
+
+
+
+
+
+
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Çıkış</button>
+                <button type="button" class="btn btn-primary" (click)="update()">Aracı Güncelle</button>
+            </div>
+        </div>
+    </div>
+</div>

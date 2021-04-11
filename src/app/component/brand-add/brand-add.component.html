@@ -1,0 +1,48 @@
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#brandadd">
+    Marka Ekle
+</button>
+
+<div class="modal fade" id="brandadd" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content" style="background-color: #ffffff;">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Lütfen Alanları Doğru Doldurduğunuzdan Emin Olun</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form [formGroup]="brandAddForm">
+
+                    <label for="brandName">Araç İsmi</label>
+                    <div class="p-field p-col-12 p-md-4">
+                        <span class="p-float-label">
+                            <input type="text" formControlName="brandName" id="brandName" pInputText>
+
+
+
+                        </span>
+
+                    </div>
+
+                    <label for="InTheGarage">Araç Garajda Mı?</label>
+                    <div class="p-field p-col-12 p-md-4">
+                        <span class="p-float-label">
+                            <input type="text" formControlName="InTheGarage" id="InTheGarage" pInputText>
+
+
+
+                        </span>
+
+                    </div>
+
+
+
+
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Çıkış</button>
+                <button type="button" class="btn btn-primary" (click)="add()">Araç Ekle</button>
+            </div>
+        </div>
+    </div>
+</div>

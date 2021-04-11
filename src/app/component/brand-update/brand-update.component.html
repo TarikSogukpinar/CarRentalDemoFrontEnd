@@ -1,0 +1,54 @@
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#brandupdate">
+    Marka Güncelle
+</button>
+
+<div class="modal fade" id="brandupdate" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content" style="background-color: #ffffff;">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Lütfen Alanları Doğru Doldurduğunuzdan Emin Olun</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form [formGroup]="brandUpdateForm">
+                    <label for="brandId">Araç Sistem Idsi</label>
+                    <div class="p-field p-col-12 p-md-4">
+                        <span class="p-float-label">
+                            <input type="number" formControlName="brandId" id="brandId" pInputText>
+
+                        </span>
+                    </div>
+                    <label for="brandName">Araç İsmi</label>
+                    <div class="p-field p-col-12 p-md-4">
+                        <span class="p-float-label">
+                            <input type="text" formControlName="brandName" id="brandName" pInputText>
+
+
+
+                        </span>
+
+                    </div>
+
+                    <label for="InTheGarage">Araç Garajda Mı?</label>
+                    <div class="p-field p-col-12 p-md-4">
+                        <span class="p-float-label">
+                            <input type="text" formControlName="InTheGarage" id="InTheGarage" pInputText>
+
+
+
+                        </span>
+
+                    </div>
+
+
+
+
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Çıkış</button>
+                <button type="button" class="btn btn-primary" (click)="update()">Aracı Güncelle</button>
+            </div>
+        </div>
+    </div>
+</div>

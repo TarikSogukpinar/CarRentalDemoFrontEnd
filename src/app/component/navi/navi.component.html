@@ -1,0 +1,68 @@
+<div class="container my-lg-5 mt-3">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border shadow px-4">
+        <img src="https://i.ibb.co/4P9z0DB/logo-white-1.png" alt="" width="40" height="40">
+        <p></p>
+        <a class="navbar-brand" routerLink="cars"><i class=""></i>
+            <p class="fw-bolder">Car Rental</p>
+        </a>
+
+
+
+
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarContent">
+            <div class="navbar-nav mb-2 mb-lg-0">
+
+
+                <a class="nav-item nav-link" routerLink="cars" routerLinkActive="active">
+                    <p class="fw-bold">Tüm Araçlar</p>
+                </a>
+
+                <a class="nav-item nav-link" routerLink="brand" routerLinkActive="active">
+                    <p class="fw-bold">Markalar</p>
+                </a>
+                <a class="nav-item nav-link" routerLink="color" routerLinkActive="active">
+                    <p class="fw-bold">Renkler</p>
+                </a>
+            </div>
+        </div>
+        <div *ngIf="isAuth()">
+            <div class="navbar-cart">
+                <app-cart-summary></app-cart-summary>
+            </div>
+        </div>
+
+        <div class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+            <div *ngIf="isAuth()">
+
+                <div>
+
+                    <button class="btn btn-dark btn-rounded-pill px-4 ms-lg-2 " routerLink="/home">
+                        <i class="bi-person-fill me-1 "></i> Profilin
+                    </button>
+
+                    <button class="btn btn-warning btn-rounded-pill px-4 ms-lg-2 " (click)="logout()" routerLink="/login ">
+                        <i class="bi-box-arrow-in-right me-1 "></i> Çıkış Yap
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+            <div *ngIf="!isAuth()">
+                <button class="btn btn-primary btn-rounded-pill px-4 ms-lg-2 " routerLink="/register">
+                    <i class="bi-person-fill me-1 "></i> Üye Ol
+                </button>
+
+                <button class="btn btn-dark btn-rounded-pill px-4 ms-lg-2 " routerLink="/login">
+                    <i class="bi-box-arrow-in-right me-1 "></i> Giriş Yap
+                </button>
+            </div>
+
+        </div>
+    </nav>
+</div>

@@ -1,0 +1,60 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<div class="centered">
+    <div class="container register">
+        <div class="row">
+            <p></p>
+            <p></p>
+            <p></p>
+            <div class="col-md-3 register-left">
+                <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt="" />
+                <h3>Car Rental Uygulamasına Hoşgeldiniz</h3>
+            </div>
+            <div class="col-md-9 register-right">
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <h3 class="register-heading">Henüz üye değilmisiniz hemen kayıt olun !</h3>
+                        <p class="text-muted">
+
+                            <a routerLink="/auth/login" class="text-reset">Gizlilik politikamız ve kullanıcı sözleşmemiş</a>
+                        </p>
+                        <form [formGroup]="registerForm" (ngSubmit)="register()">
+                            <div class=" form-row ">
+                                <div class="form-group col-md-4 ">
+                                    <label for="inputEmail4 ">İsminiz</label>
+                                    <input formControlName="firstName" type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                </div>
+                                <div class="form-group col-md-4 ">
+                                    <label for="inputPassword4 ">Soyisminiz</label>
+                                    <input formControlName="lastName" type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                </div>
+                                <div class="form-group col-md-4 ">
+                                    <label for="inputEmail4 ">Email</label>
+                                    <input formControlName="email" type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                </div>
+                                <div class="form-group col-md-4 ">
+                                    <label for="inputPassword4 ">Password</label>
+                                    <input formControlName="password" type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                </div>
+                            </div>
+                            <p></p>
+                            <p></p>
+                            <p></p>
+                            <button type="submit " class="btn btn-primary ">Kayıt Ol</button>
+                            <p></p>
+                            <div class="d-block text-start ">
+                                <span class="login " routerLink="/login">
+                        
+                     </span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

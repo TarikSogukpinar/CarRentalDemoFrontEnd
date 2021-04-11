@@ -1,0 +1,23 @@
+.centered {
+    position: relative;
+    top: -50px;
+    left: 13px;
+}
+
+.centered2 {
+    position: relative;
+    top: -30px;
+    left: 6px;
+}
+
+.centered3 {
+    position: relative;
+    top: 180%;
+    left: 60%;
+}
+
+.centered4 {
+    position: relative;
+    left: 15%;
+    bottom: 54px;
+}
