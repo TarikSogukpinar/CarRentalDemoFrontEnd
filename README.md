@@ -18,7 +18,7 @@
 
 <p align="center">
     <a href="https://github.com/github_username/repo_name">
-        <img src="https://i.hizliresim.com/wTMiwv.png" alt="" width="50" height="50">
+        <img src="https://i.hizliresim.com/wTMiwv.png" alt="" width="500" height="500">
     </a>
 
 
