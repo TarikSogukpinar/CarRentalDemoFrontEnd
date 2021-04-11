@@ -1,27 +1,43 @@
-# CarRentalDemo
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+    <a href="https://github.com/github_username/repo_name">
+        <img src="https://i.hizliresim.com/1yft7k.jpg" alt="Logo" width="1000" height="700">
+    </a>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.7.
+<bold><h3 align="center"> » Car Rental Demo Front End »</h3></bold>
 
-## Development server
+<p align="center">
+    Bu Proje Yazılım Geliştirici ve Yetiştirme Kampı için Hazırlanmıştır...
+  Proje Henüz Demo Aşamasında Olup Crud Operasyonları Login ve Register İşlemleri Gerçekleştirilmiştir.
+    <br />
+    
+</p>
+</p>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+<!-- CONTACT -->
+## Contact With Me
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+[&#128218; MyBlog](https://tariksogukpinar.medium.com)
 
-## Running end-to-end tests
+[&#128221; Linkedin](https://www.linkedin.com/in/tar%C4%B1k-so%C4%9Fukp%C4%B1nar-82a495206/)
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+&#128235;<a href = "mailto: ledunv@protonmail.com">Email</a>
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+[&#128187; Discord(LEDUN#8815)]()
+
+
+
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+
+* [Engin Demiroğ]()
+* [Kodlama.İO]()
+
