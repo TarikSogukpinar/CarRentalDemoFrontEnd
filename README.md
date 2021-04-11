@@ -21,6 +21,12 @@
         <img src="https://i.hizliresim.com/wTMiwv.png" alt="" width="500" height="500">
     </a>
   </p>
+  
+  <p align="center">
+    <a href="https://github.com/github_username/repo_name">
+        <img src="https://i.hizliresim.com/p2z5ez.png" alt="" width="500" height="500">
+    </a>
+  </p>
 
 
 
