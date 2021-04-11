@@ -14,11 +14,11 @@
     
 </p>
 </p>
-
+<bold><h3 align="center"> » Projeden Bir Kaç Görüntü »</h3></bold>
 
 <p align="center">
     <a href="https://github.com/github_username/repo_name">
-        <img src="https://i.hizliresim.com/1yft7k.jpg" alt="Logo" width="1000" height="700">
+        <img src="https://i.hizliresim.com/wTMiwv.png" alt="Logo" width="700" height="700">
     </a>
 
 
