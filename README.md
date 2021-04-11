@@ -16,6 +16,10 @@
 </p>
 
 
+<p align="center">
+    <a href="https://github.com/github_username/repo_name">
+        <img src="https://i.hizliresim.com/1yft7k.jpg" alt="Logo" width="1000" height="700">
+    </a>
 
 
 
