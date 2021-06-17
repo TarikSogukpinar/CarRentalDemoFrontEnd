@@ -73,16 +73,3 @@ export class LoginComponent implements OnInit {
 
 
 
-//burada nasıl user ı alıyorsun
-
-// buralar çalışıyor ya bunlarda sıkıntı yok sadece isim yazdıramıyorum data gelmiyor bi türlü
-// tamam ismi yazdırabilmek için veriyi nerden alıyorsun...number. valla onu bilmiyorum kral her yolu denedim ama gelmedi :D
-// login olduğunda email ile aynı getUserById gibi getUserByEmail methodu olması gerekli varmı? sanrsam yok ya ama oturumda problem vermiyor
-// kayıt olmada da öyle
-// doğrudur fakat isim yazdırabilmek için çekmek gerekli user tablosundan çekemye çalıştım oda olmadımaam
-// // tmam ama bir parametre vermen gerekli userId userEMail gibi bi işte onu anlamadım bi türlü her yolu denedim yani 
-// backend in nerder
-
-// backendi kontrol ettim senden sıkıntı yok 
-// dostum sorun yok zaten saddece eksik :)
-// haa :D onu bilemiyorum kral tmama
